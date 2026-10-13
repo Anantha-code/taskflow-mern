@@ -147,29 +147,7 @@ Base URL: `http://localhost:5000/api`
 5. The API returns JSON.
 6. React refreshes the displayed task list.
 
-## GitHub Upload
 
-From the project root:
-
-```bash
-git init
-git add .
-git commit -m "Build TaskFlow MERN task manager"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/taskflow-mern.git
-git push -u origin main
-```
-
-Create an empty repository named `taskflow-mern` on GitHub first. Do not upload `.env` files.
-
-## Possible Improvements
-
-- User registration and login
-- Task due dates and priorities
-- Pagination and sorting
-- Unit and integration tests
-- Deployment of frontend, backend, and database
-
-## Learning Note
-
-This is a learning project. Before presenting it in an interview, run it locally, test the CRUD features, and make sure you can explain the React components, API routes, Mongoose model, and database connection.
+| Project    | Website                      | Backend API                   |
+| ---------- | ---------------------------- | ----------------------------- |
+| TaskFlow   | `taskflow-mern.vercel.app`   | `taskflow-api.onrender.com`   |
